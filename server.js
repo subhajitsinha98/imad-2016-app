@@ -13,7 +13,7 @@ app.get('/ui/about', function (req, res) {
   res.send('article one is coming soon');
 });
 
-app.get('/ui/founders', function(req,res) {
+app.get('/ui/founders', function(req, res) {
     res.sendFile(path.join(_dirname, 'ui', 'founders.html'));
 });
 
