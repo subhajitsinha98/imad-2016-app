@@ -17,7 +17,7 @@ app.get('/ui/founders', function(req, res) {
     res.sendFile(path.join(_dirname, 'ui', 'founders.html'));
 });
 
-app.get('/about', function (req, res) {
+app.get('t', function (req, res) {
   res.sendFile(path.join(_dirname,'ui', 'about.html'));
 });
 
