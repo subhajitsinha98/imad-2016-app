@@ -13,7 +13,7 @@ app.get('/ui/about', function (req, res) {
   res.send('article one is coming soon');
 });
 
-app.get()
+app.get('founders')
 
 app.get('/about', function (req, res) {
   res.sendFile(path.join(_dirname,'ui', 'about.html'));
