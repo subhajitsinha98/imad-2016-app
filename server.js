@@ -13,7 +13,9 @@ app.get('/ui/about', function (req, res) {
   res.send('article one is coming soon');
 });
 
-app.get('founders')
+app.get('/ui/founders', function(req,res) {
+    res.sendFile(path.join(_dirname, 'ui', 'founders.html'));
+});
 
 app.get('/about', function (req, res) {
   res.sendFile(path.join(_dirname,'ui', 'about.html'));
