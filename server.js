@@ -10,8 +10,10 @@ app.get('/', function (req, res) {
 });
 
 app.get('/ui/about', function (req, res) {
-  res.send('article one is coming');
+  res.send('article one is coming soon');
 });
+
+app.get()
 
 app.get('/about', function (req, res) {
   res.sendFile(path.join(_dirname,'ui', 'about.html'));
